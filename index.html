@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- Your favourite Songs is here</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify.com">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songContainer">
+            <div class="songlist">Best NCS - No copyright song</div>
+
+            <div class="songItems">
+                <img alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">5.34 <i id="0" class="far songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItems">
+                <img alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">5.34 <i id="1" class="far songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItems">
+                <img alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">5.34 <i id="2" class="far songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItems">
+                <img alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">5.34 <i id="3" class="far songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItems">
+                <img alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songlistplay"><span class="timestamp">5.34 <i id="4" class="far songItemPlay fa-circle-play"></i></span></span>
+            </div>
+        </div>
+
+        <div class="songBannner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="ProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <!-- Awsome Icons -->   
+            <i class="fas fa-backward-step" id="previous"></i>
+            <i class="far songItemPlay fa-circle-play" id="masterplay"></i>
+            <i class="fas fa-forward-step" id="next"></i>
+        </div>
+
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="2"><span id="masterplaysong">Dil mubarakh</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/00d5eb0db4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
